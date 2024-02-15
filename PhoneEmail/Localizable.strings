@@ -1,0 +1,9 @@
+// Localizable.strings
+
+"app_name" = "Demo - Sign in with phone";
+"sign_in_with_phone" = "Sign in with Phone";
+"phone_details" = "%@";
+"you_are_logged_in_with" = "You are logged in with";
+"sign_in_text" = "Try Sign In demo";
+"sign_in_description" = "Below button demonstrates the usage of Sign In button";
+"logout" = "Logout";
