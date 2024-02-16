@@ -28,7 +28,7 @@ class AuthViewController: UIViewController, WKScriptMessageHandler, WKNavigation
         
         let urlString = "https://auth.phone.email/sign-in?countrycode=\(phoneCountry)&phone_no=\(phoneNumber)&auth_type=7&device=\(deviceId)"
         
-        print(urlString)
+
         if let url = URL(string: urlString) {
             let request = URLRequest(url: url)
             webView.load(request)

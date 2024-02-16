@@ -5,7 +5,7 @@ class ViewController: UIViewController {
 
      @IBOutlet weak var emailView: TapableView!
      @IBOutlet weak var container: UIView!
-     @IBOutlet weak var pnoneButton: UIButton!
+     @IBOutlet weak var phoneButton: UIButton!
      @IBOutlet weak var emailCountLabel: UILabel!
      @IBOutlet weak var tvInfo: UILabel!
      @IBOutlet weak var tvJwt: UILabel!
@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.pnoneButton.addShadow()
+        self.phoneButton.addShadow()
         self.container.addShadow()
         emailView.isHidden = true
         showDetails(verifiedPhoneDetail: "", source: 7)

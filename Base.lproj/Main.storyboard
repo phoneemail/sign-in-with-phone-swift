@@ -109,7 +109,7 @@
                         <outlet property="container" destination="l38-J9-wU0" id="XVm-Gi-q7h"/>
                         <outlet property="emailCountLabel" destination="e2L-2f-mAc" id="8L6-Wx-N4j"/>
                         <outlet property="emailView" destination="Wcd-fi-yZU" id="VGF-49-hvw"/>
-                        <outlet property="pnoneButton" destination="NyS-Qc-X8X" id="t08-bC-eea"/>
+                        <outlet property="phoneButton" destination="NyS-Qc-X8X" id="t08-bC-eea"/>
                         <outlet property="tvInfo" destination="ayG-Xc-HRS" id="0fq-t8-kaO"/>
                         <outlet property="tvJwt" destination="Kvf-nt-cqi" id="sfx-1W-ZZT"/>
                     </connections>
